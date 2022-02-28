@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+    <div style="width: 58%;">
+        <h2 class="text-center px-3 m-0 text-info">ADSI VIRTUAL</h2>
+        <h5 class="text-center text-info my-2 p-2 w-100">Insertar Paciente</h5>
+            <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+            <form action="#" method="POST" class="w-75">
+                <div class="">
+                    <div class="form-inline mb-lg-4">
+                        <label for="identificacion" class=" col-lg-3 d-lg-inline-block my-2 text-center text-lg-right  mr-0 pl-0">Identificación:</label>
+                        <input type="text" name="identificacion" class="col border rounded p-2 p-lg-1" id="identificacion">
+                    </div>
+                    <div class="form-inline mb-lg-4">
+                        <label for="nombres" class="col-lg-3 d-lg-inline-block my-2 text-center text-lg-right">Nombres:</label>
+                        <input type="text" name="nombres" class="col border rounded p-2 p-lg-1" id="nombres">
+                    </div>
+                    <div class="form-inline mb-lg-4">
+                        <label for="apellidos" class="col-lg-3 d-lg-inline-block my-2 text-center text-lg-right">Apellidos:</label>
+                        <input type="text" name="apellidos" class="col border rounded p-2 p-lg-1" id="apellidos">
+                    </div>
+                    <div class="form-inline mb-lg-4">
+                        <label for="fecha" class="col-lg-3 d-lg-inline-block my-2 text-center text-lg-right">Fecha Nacimiento:</label>
+                        <input type="date" name="fecha" class="col border rounded p-2 p-lg-1 text-center" id="fecha">
+                    </div>
+                    <div class="form-inline mb-lg-4">
+                        <label for="sexo" class="col-lg-3 d-lg-inline-block my-2 text-center text-lg-right">Sexo:</label>
+                        <select id="sexo" name="sexo" class="col border rounded p-2 p-lg-1">
+                            <option></option>
+                            <option value="mujer">Mujer</option>
+                            <option value="hombre">Hombre</option>
+                        </select> 
+                    </div>
+                    <div class="row">
+                        <div class="col text-center my-4">
+                            <input type="submit" name="enviar" value="Enviar" class="btn d-inline col-lg-3 btn-info p-2 rounded-0">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
